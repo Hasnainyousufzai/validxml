@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE studentdata[
+<!ELEMENT studentdata (persondata+)>
+<!ELEMENT persondata (name,course,age,fees)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT course (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT fees (#PCDATA)>
+<!ATTLIST persondata id CDATA "23">
+]>
+<studentdata>
+  <persondata id= "23">
+    <name>Maham</name>
+    <course>CPISM</course>
+    <age>18</age>
+    <fees>8100</fees>
+  </persondata>
+  <persondata>
+    <name>Zoya</name>
+    <course>CPISM</course>
+    <age>18
+    </age>
+    <fees>8100</fees>
+  </persondata>
+  <persondata>
+    <name>Maryam</name>
+    <course>CPISM</course>
+    <age>18
+    </age>
+    <fees>8100</fees>
+  </persondata>
+</studentdata>
